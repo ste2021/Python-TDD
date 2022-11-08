@@ -1,5 +1,5 @@
 from bytebank import Funcionario
 
-Lucas = Funcionario('Estela de Oliveira', '17/06/1992', 1000)
-
-print(Lucas.idade())
+def teste_idade():
+    funcionario_teste = Funcionario('Teste', '17/06/1992', 1500)
+    print(f'Teste = {funcionario_teste.idade()}')
